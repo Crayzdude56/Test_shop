@@ -28,9 +28,10 @@ public class Main {
                     carDatabase.printCarInGoodCondition();
                     break;
                 case "2":
-                    BookStore knihkupectvi = new BookStore();
+                    BookStore knihkupectvi = new BookStore("Moje knihkupectvi");
                     knihkupectvi.addBoooks();
                     knihkupectvi.printInfo();
+                    knihkupectvi.najdinejkratsikniha();
                     break;
                 case "3":
                     Film film = new Film();
